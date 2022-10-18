@@ -1,4 +1,4 @@
-# inotify
+# inotify study playground
 
 Implementation list:
 
