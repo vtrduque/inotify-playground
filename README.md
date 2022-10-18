@@ -17,6 +17,17 @@ on another terminal
 $ make run-demo
 ```
 
+the output should be something like
+```
+2022/10/18 08:46:12 started DIR watcher
+2022/10/18 08:46:12 started FILE watcher
+2022/10/18 08:46:17 [FILE_WATCHER] File modified: tmp/file.log
+2022/10/18 08:46:17 [DIR_WATCHER] File created:  tmp/file2.log
+2022/10/18 08:46:24 [DIR_WATCHER] File deleted:  tmp/file2.log
+2022/10/18 08:46:24 [DIR_WATCHER] File deleted:  tmp/file.log
+2022/10/18 08:46:24 [DIR_WATCHER] File deleted:  tmp
+```
+
 # Clean
 ```sh
 $ make clean
